@@ -1,0 +1,10 @@
+# ========== mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua ==========
+#: mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua:
+msgid "Send a mail when suppressor will burn out"
+msgstr "Отправить письмо, когда глушитель сгорит"
+
+#: mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua:
+msgid "Your alliance energy signature suppressor in sector \\s(%s:%s) burnt out!"
+msgstr "Подавитель энергетических сигнатур, принадлежащий вашему альянсу, в секторе \\s(%s:%s) сгорел!"
+
+
