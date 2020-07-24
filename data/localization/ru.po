@@ -1,10 +1,22 @@
-# ========== mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua ==========
-#: mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua:
-msgid "Send a mail when suppressor will burn out"
-msgstr "Отправить письмо, когда глушитель сгорит"
+# ========== C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua ==========
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "Send a mail when suppressor will burn out or will be destroyed"
+msgstr "Отправить письмо, когда глушитель сгорит или будет уничтожен"
 
-#: mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua:
-msgid "Your alliance energy signature suppressor in sector \\s(%s:%s) burnt out!"
-msgstr "Подавитель энергетических сигнатур, принадлежащий вашему альянсу, в секторе \\s(%s:%s) сгорел!"
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your energy signature suppressor in sector %2%(%3%:%4%) has burnt out!"
+msgstr "%1%Ваш глушитель энергетических сигнатур в секторе %2%(%3%:%4%) сгорел!"
+
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your alliance energy signature suppressor in sector %2%(%3%:%4%) has burnt out!"
+msgstr "%1%Принадлежащий альянсу глушитель энергетических сигнатур в секторе %2%(%3%:%4%) сгорел!"
+
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your energy signature suppressor in sector %2%(%3%:%4%) was destroyed!"
+msgstr "%1%Ваш глушитель энергетических сигнатур в секторе %2%(%3%:%4%) был уничтожен!"
+
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your alliance energy signature suppressor in sector %2%(%3%:%4%) was destroyed!"
+msgstr "%1%Принадлежащий альянсу глушитель энергетических сигнатур в секторе %2%(%3%:%4%) был уничтожен!"
 
 

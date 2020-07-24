@@ -1,10 +1,22 @@
-# ========== mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua ==========
-#: mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua:
-msgid "Send a mail when suppressor will burn out"
+# ========== C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua ==========
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "Send a mail when suppressor will burn out or will be destroyed"
 msgstr ""
 
-#: mods\ImprovedEnergySuppressor\data\scripts\entity\energysuppressor.lua:
-msgid "Your alliance energy signature suppressor in sector (%s:%s) burnt out!"
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your energy signature suppressor in sector %2%(%3%:%4%) has burnt out!"
+msgstr ""
+
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your alliance energy signature suppressor in sector %2%(%3%:%4%) has burnt out!"
+msgstr ""
+
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your energy signature suppressor in sector %2%(%3%:%4%) was destroyed!"
+msgstr ""
+
+#: C:/Users/WIN 10/AppData/Roaming/Avorion/mods/Improved Energy Suppressor/data/scripts/entity/energysuppressor.lua:
+msgid "%1%Your alliance energy signature suppressor in sector %2%(%3%:%4%) was destroyed!"
 msgstr ""
 
 
