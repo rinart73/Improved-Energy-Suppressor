@@ -58,8 +58,7 @@ function EnergySuppressor.initialize(...)
 end
 
 function EnergySuppressor.updateServer(timeStep) -- overridden
-    --TODO: EnergySuppressor.data.time = EnergySuppressor.data.time - timeStep
-    EnergySuppressor.data.time = 0
+    EnergySuppressor.data.time = EnergySuppressor.data.time - timeStep
 
     if EnergySuppressor.data.time <= 0 then
         EnergySuppressor.iES_notify([[%1%Your energy signature suppressor in sector %2%(%3%:%4%) has burnt out!]]%_T, [[%1%Your alliance energy signature suppressor in sector %2%(%3%:%4%) has burnt out!]]%_T)
