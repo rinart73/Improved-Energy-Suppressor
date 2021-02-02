@@ -4,6 +4,7 @@ include("stringutility")
 local iES_initialize -- extended server functions
 local iES_initUI, iES_onSync -- extended client functions
 local iES_sendMailCheckBox -- client UI
+local iES_Config -- server
 
 
 if onClient() then -- CLIENT
@@ -50,9 +51,23 @@ end
 else -- SERVER
 
 
+Azimuth = include("azimuthlib-basic")
+
 iES_initialize = EnergySuppressor.initialize
 function EnergySuppressor.initialize(...)
     iES_initialize(...)
+    
+    local configOptions = {
+      _version = {"1.2", comment = "Config version. Don't touch."},
+      CreateWreckage = {true, comment = "If false, burned out energy suppressors will disappear instead of turning into a wreckage."},
+      Duration = {600, round = -1, min = 0, comment = "How long (in MINUTES) do energy suppressor work."}
+    }
+    local isModified
+    iES_Config, isModified = Azimuth.loadConfig("ImprovedEnergySuppressor", configOptions)
+    if isModified then
+        Azimuth.saveConfig("ImprovedEnergySuppressor", iES_Config, configOptions)
+    end
+    EnergySuppressor.data.time = iES_Config.Duration * 60
 
     Entity():registerCallback("onDestroyed", "iES_onDestroyed")
 end
@@ -70,7 +85,9 @@ function EnergySuppressor.updateServer(timeStep) -- overridden
         -- remove energy suppressor
         Sector():deleteEntity(entity)
         -- create a wreckage in its place
-        Sector():createWreckage(plan, position)
+        if iES_Config.CreateWreckage then
+            Sector():createWreckage(plan, position)
+        end
     end
 end
 
